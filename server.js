@@ -23,8 +23,15 @@ io.on('connection', (ws) => {
 //Rutas
 /*app.get('/', (req, res) => {
     res.send('Server running!');
-})*/
+})
 
 server.listen(3000, () => {
     console.log(`Server running on port ${port}`);
-});
+});*/
+/*Rutas para VERCEL*/
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
+server.listen(3000, () =>
+    console.log("Server ready on port 3000."));
+
+module.exports = app;
