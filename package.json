@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "dev" : "versel dev",
-    "build": "npm install && echo 'Build completado'",
+    "dev" : "nodemon api/index.ts",
+    "build": "tsc",
     "vercel-build": "npm install"
 
   },

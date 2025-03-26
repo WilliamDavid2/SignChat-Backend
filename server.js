@@ -29,7 +29,8 @@ server.listen(3000, () => {
     console.log(`Server running on port ${port}`);
 });*/
 /*Rutas para VERCEL*/
-app.get("/", (req, res) => res.send("Express on Vercel"));
+/*app.get("/", (req, res) => {res.send("Express on Vercel")
+});*/
 
 server.listen(3000, () =>
     console.log("Server ready on port 3000."));
